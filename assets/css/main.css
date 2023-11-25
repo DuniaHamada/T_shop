@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 6666px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.active {
+  font-weight: 800;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  background: #fff;
+  box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .logo img {
+  width: 35px;
+}
+.container .logo a {
+  color: #545be8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.container .nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+.container .nav ul a {
+  color: #101928;
+}
+.container .auth {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container .auth a {
+  padding: 5.354px 30px;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .auth .login {
+  border: 2px solid #545be8;
+  color: #545be8;
+}
+.container .auth .register {
+  color: #fff;
+  background: #545be8;
+}
